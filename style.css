@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*estilos para barra navegacion*/
+.codoacodo{
+    width: 10rem;
+}
+
+.nav-item-tickets a.nav-link{
+    color:#008000 !important;
+}
+
+/*estilos para confBA*/
+
+.confBA img{
+    max-width: 100%;
+}
+.ba{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.ba1 img{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+    filter: brightness(55%);
+
+}
+
+.conf{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    color: white;
+    position: absolute;
+    padding-top: 5%;
+    padding-left: 50%;
+    padding-right: 9%;
+}
+
+.conf p{
+    text-align: end;
+    font-size: 1.55rem;
+}
+
+.conf h3{
+    font-size: 3rem;
+}
+
+#comprar{
+    background-color: #2abd2a;
+}
+
+/*estilos de las cards*/
+.ser-orador{
+    max-width:99.3%;
+}
+
+.oradores p, h3{
+    text-align: center;
+}
+
+.oradores h3{
+    font-size: 2.5rem;
+}
+
+.oradores p{
+    font-size: 1rem;
+    margin: 1rem 0 0 0 ;
+}
+
+.js-react span{
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+#react{
+    background-color: hwb(180 14% 38%)!important;
+}
+
+/*estilos Honolulu*/
+
+.conoceBA{
+    display: flex; 
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.honolulu{
+    width: 50%;
+}
+
+.Octubre{
+    width: 50%;
+    background-color: #494949;
+    color: #ffffff;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.Octubre h3{
+    text-align: left;
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.Octubre p{
+    font-size: 1rem;
+}
+
+/*estilos formularios*/
+
+p.anotate{
+    font-size: 1.1rem;
+}
+
+p.anotate span{
+    border-bottom: dotted;
+}
+
+.oradores{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+#boton{
+    background-color:rgb(145, 199, 75);
+    border: none;
+}
+
+/*estilos footer*/
+
+.pie{
+background:linear-gradient(to right, #033549, #164f66 );
+margin-top: 1rem;
+}
+
+.pie ul{
+    list-style-type: none;
+    padding: 2rem;
+    text-align: center;
+    margin-bottom: 0;
+ }
+
+ .pie ul li{
+    display: inline;
+    padding: 0 3.5rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    vertical-align: middle;
+ }
+
+ .pie ul li.pie1{
+    display: inline-block;
+    padding: 0;
+    width: 10%;
+ }
+
+/*responsive*/
+
+@media screen and (min-width:400px) and (max-width:768px) {
+
+    div.container-fluid{
+        display: flex!important;
+        justify-content: space-evenly!important;
+    }
+
+    .navbar-toggler{
+        display: block!important;
+    }
+
+    div.botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .conf h3{
+        font-size: 2rem;
+    }
+
+    .conf p{
+        font-size: 1rem;
+    }
+
+    #comprar{
+        font-size: 1rem!important;
+    
+    }
+
+    #orar{
+        font-size: 1rem!important;
+    }
+
+    .pie ul li{
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pie ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pie ul li.pie1{
+        width: auto;
+    }
+
+    .conoceBA{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Octubre{
+        width: 100%;
+    }
+
+    .conoceBA img{
+        width: 100%;
+    }
+}
+ 
+@media screen and  (min-width:769px) and (max-width:991px){
+
+    .navbar-toggler{
+        display: block!important;
+        /*margin-left: 15rem;*/
+    }
+
+    div.botones{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    
+    .pie ul li{
+        font-size: 1.3rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pie ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pie ul li.pie1{
+        width: auto;
+    }
+}
+
+    @media screen and (min-width:992px) and (max-width:1200px){
+        .navbar-nav{
+            display: flex;
+            }
+        
+            .navbar-toggler{
+                display: none;
+            }
+            #collapsibleNavbar{
+                margin: 0!important;
+                padding: 0!important;
+            }
+
+            li a.nav-link{
+                font-size: 1rem;
+            }
+
+            div.botones{
+                display: flex;
+                flex-direction: row;
+                justify-content: end;
+            }
+
+            .pie ul{
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .pie ul li{
+                font-size: 1rem;
+                margin-bottom: 0.5rem;
+                padding: 1rem;
+            }
+}
