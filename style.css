@@ -150,6 +150,11 @@ margin-top: 1rem;
     margin-bottom: 0;
  }
 
+ .pie ul li a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+
  .pie ul li{
     display: inline;
     padding: 0 3.5rem;
