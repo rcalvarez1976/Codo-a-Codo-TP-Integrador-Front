@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    width: 99.2%;
+}
+/*estilos navbar*/
+
+.nav-item-tickets a.nav-link {
+    color: #008000 !important;
+}
+
+.nav-item-tickets a.nav-link:hover {
+    color: #24da24 !important;
+}
+
+a.nav-link:hover {
+    color: #ffffff !important;
+}
+
+header {
+    background-color: rgb(54, 54, 54);
+}
+
+ div#collapsibleNavbar {
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
+/*estilos cajas*/
+
+.estudiante,
+.junior,
+.trainee {
+    width: 17%;
+}
+
+.estudiante {
+    border: solid 0.15rem #2444f8;
+}
+
+.trainee {
+    border: solid 0.15rem #008000;
+}
+
+.junior {
+    border: solid 0.15rem #ffa500;
+}
+
+.row h3,
+h5,
+p {
+    text-align: center;
+}
+
+.descuento {
+    font-size: 1.4rem;
+}
+
+.row h3 {
+    margin: 2rem 0 1rem;
+}
+
+.row p {
+    margin-bottom: 1.5rem;
+}
+
+.row h5 {
+    margin-bottom: 1.5rem;
+}
+
+p.documentacion {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/*estilos formulario*/
+
+input.form-control,
+select {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+p.venta {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+input#totalAPagar {
+    background-color: #bed6fa;
+    border: none;
+}
+
+input#totalAPagar::placeholder {
+    font-size: 1rem;
+    color: #000000 !important;
+}
+
+input#totalAPagar{
+    cursor: auto;
+}
+
+button {
+    background-color: #8dcf4e !important;
+    border: none !important;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: none !important;
+}
+
+button:hover {
+    background-color: #447219 !important;
+}
+
+/*estilos footer*/
+.pie {
+    background: linear-gradient(to right, #033549, #164f66);
+    margin-top: 1rem;
+}
+
+.pie ul {
+    list-style-type: none;
+    padding: 2rem 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.pie ul li a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.pie ul li {
+    display: inline;
+    padding: 0 3.5rem;
+    font-size: 1.3rem;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0 0.5rem;
+}
+
+.pie ul li.pie1 {
+    display: inline-block;
+    padding: 0;
+    width: 10%;
+}
+
+@media screen and (min-width:360px) and (max-width:567px) {
+
+    a.nav-link {
+        font-size: 0.85rem;
+    }
+
+    li.nav-item {
+        padding-right: 0 !important;
+    }
+
+    .estudiante,
+    .junior,
+    .trainee {
+        width: 70%;
+    }
+
+    .datos {
+        display: block;
+    }
+
+    #nombre,
+    #apellido {
+        width: 60%;
+        margin-left: 20%;
+        margin-bottom: 1rem;
+    }
+
+    #correo {
+        width: 60%;
+    }
+
+    .compra {
+        width: 30%;
+        text-align: center;
+    }
+
+    .total {
+        width: 60%;
+    }
+
+
+    .pie {
+        max-width: 100%;
+    }
+
+    .pie ul li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pie ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie ul li.pie1 {
+        width: auto;
+    }
+}
+
+/*Responsive*/
+
+@media screen and (min-width:568px) and (max-width:767px) {
+    a.nav-link {
+        font-size: 0.85rem;
+    }
+
+    li.nav-item {
+        padding-right: 0 !important;
+    }
+
+    .estudiante,
+    .junior,
+    .trainee {
+        width: 50%;
+    }
+
+    .pie {
+        max-width: 100%;
+    }
+
+    .pie ul li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pie ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie ul li.pie1 {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .estudiante,
+    .junior,
+    .trainee {
+        width: 19%;
+    }
+
+    .pie {
+        max-width: 100%;
+    }
+
+    .pie ul li {
+        font-size: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .pie ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pie ul li.pie1 {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+
+    .estudiante,
+    .junior,
+    .trainee {
+        width: 17%;
+    }
+
+    a.nav-link {
+        font-size: 1.1rem;
+
+    }
+
+    .pie ul li a {
+        font-size: 1rem;
+    }
+
+    .pie ul li {
+        margin: 0;
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #datos1 {
+        display: none;
+    }
+
+    div#collapsibleNavbar {
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .pie ul li {
+        margin: 0;
+        padding: 3rem;
+    }
+}

@@ -13,6 +13,9 @@
     color:#008000 !important;
 }
 
+.nav-item-tickets a.nav-link:hover{
+    color:#34dd34!important ;
+}
 /*estilos para confBA*/
 
 .confBA img{
@@ -57,6 +60,27 @@
 
 #comprar{
     background-color: #2abd2a;
+    border:solid 0.1rem #2abd2a!important;
+}
+
+#comprar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#comprar:hover{
+    background-color: #0d470d;
+    border:solid 0.1rem #0d470d!important;
+}
+
+#orar a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#orar:hover{
+    background-color: #0d470d!important;
+    border:solid 0.1rem #0d470d!important;
 }
 
 /*estilos de las cards*/
